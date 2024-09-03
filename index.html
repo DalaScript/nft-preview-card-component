@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+
+  <main>
+    <article class="preview-card">
+      <section class="preview-card__img-container">
+        <picture>    
+          <source media="(min-width: 1440px)" width="302" height="302" srcset="./assets/images/image-equilibrium.jpg">
+          <img class="preview-card__product-img" width="278" height="278" sizes="(min-width: 1440px) 302px" src="./assets/images/image-equilibrium.jpg" alt="product image">
+        </picture>
+        <section class="preview-card__overlay">
+          <div class="preview-card__overlay-bg"></div>
+          <img class="preview-card__overlay-img" src="./assets/images/icon-view.svg" alt="view">
+        </section>
+      </section>
+      <section class="preview-card__text-content">
+        <div class="preview-card__about-card">
+          <a class="preview-card__title">Equilibrium #3429</a>
+          <p class="preview-card__subtitle">Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <div class="preview-card__preis-deadline">
+          <p class="preview-card__preis">
+            <img width="11" height="18" src="./assets/images/icon-ethereum.svg" alt="etherium"> 0.041 ETH
+          </p>
+          <p class="preview-card__deadline">
+            <img src="./assets/images/icon-clock.svg" alt="icon"> 3 days left
+          </p>
+        </div>
+        <div class="preview-card__line"></div>
+        <div class="preview-card__owner">
+          <img class="preview-card__owner-img" width="33" height="33" src="./assets/images/image-avatar.png" alt="image of owner">
+          <div class="preview-card__name-container">
+            <p class="preview-card__caption">Creation of <a class="preview-card__name">Jules Wyvern</a></p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
