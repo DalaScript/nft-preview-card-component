@@ -196,7 +196,6 @@ main {
             opacity: 0;
 
             transition: .5s ease-in-out;
-
             cursor: pointer;
 
             &:hover {
@@ -209,20 +208,18 @@ main {
         }
 
         &__title {
+            transition: .5s ease-in-out;
+            cursor: pointer;
             &:hover {
-                cursor: pointer;
                 color: $cyan;
-
-                transition: .5s ease-in-out;
             }
         }
 
         &__name {
+            cursor: pointer;
+            transition: .5s ease-in-out;
             &:hover {
-                cursor: pointer;
                 color: $cyan;
-
-                transition: .5s ease-in-out;
             }
         }
     }

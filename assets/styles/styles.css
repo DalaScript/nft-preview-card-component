@@ -166,15 +166,19 @@ main {
   .preview-card__overlay-img {
     position: absolute;
   }
-  .preview-card__title:hover {
+  .preview-card__title {
+    transition: 0.5s ease-in-out;
     cursor: pointer;
+  }
+  .preview-card__title:hover {
     color: #00fff7;
+  }
+  .preview-card__name {
+    cursor: pointer;
     transition: 0.5s ease-in-out;
   }
   .preview-card__name:hover {
-    cursor: pointer;
     color: #00fff7;
-    transition: 0.5s ease-in-out;
   }
 }
 @media only screen and (min-width: 1440px) {
